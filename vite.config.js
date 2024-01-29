@@ -7,5 +7,11 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true
-  }
+  },
+    build: {
+      rollupOptions: {
+        external: ['react-router-dom']
+    }
+    }
+  
 });
