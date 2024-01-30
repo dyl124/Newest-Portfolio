@@ -41,7 +41,7 @@ const Header = () => {
     <Navbar>
       <Navbar.Brand>Dylan Main</Navbar.Brand>
       <Nav className="ml-auto">
-        <Link to="/" className="nav-link">About Me</Link>
+        <Link to="/aboutme" className="nav-link">About Me</Link>
         <Link to="/portfolio" className="nav-link">Portfolio</Link>
         <Link to="/contact" className="nav-link">Contact</Link>
         <Link to="/resume" className="nav-link">Resume</Link>
